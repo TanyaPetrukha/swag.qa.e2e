@@ -1,10 +1,10 @@
 import { test, expect } from "@playwright/test";
-import { products, user } from "./test.data";
-import { LoginPage } from "../app/pages/LoginPage";
-import { InventoryPage } from "../app/pages/InventoryPage";
-import { CartPage } from "../app/pages/CartPage";
-import { CheckoutStepOnePage } from "../app/pages/CheckoutStepOnePage";
-import { CheckoutStepTwoPage } from "../app/pages/CheckoutStepTwoPage";
+import { products, user } from "./swag-labs.data";
+import { LoginPage } from "../../app/pages/LoginPage";
+import { InventoryPage } from "../../app/pages/InventoryPage";
+import { CartPage } from "../../app/pages/CartPage";
+import { CheckoutStepOnePage } from "../../app/pages/CheckoutStepOnePage";
+import { CheckoutStepTwoPage } from "../../app/pages/CheckoutStepTwoPage";
 
 let loginPage: LoginPage;
 let inventoryPage: InventoryPage;
